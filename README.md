@@ -1,111 +1,38 @@
-# 🌱 Green-Tech Inventory Assistant
+## 📋 Submission Details
 
-An AI-powered inventory management system designed to help small businesses, cafes, and organizations reduce waste and optimize stock levels using intelligent insights.
+### Candidate Name:
+Himank Kumar
 
----
+### Scenario Chosen:
+Green-Tech Inventory Assistant
 
-## 🚀 Overview
-
-Managing inventory manually often leads to overstocking, stockouts, and unnecessary waste.  
-This project solves that problem by using AI to analyze usage patterns and provide predictive insights.
-
----
-
-## 🎯 Problem Statement
-
-Small businesses and organizations struggle with:
-- Manual inventory tracking
-- Overstocking and waste
-- Lack of predictive insights
-- Expensive enterprise tools
+### Estimated Time Spent:
+~8–10 hours (including backend, frontend, AI integration, debugging, and testing)
 
 ---
 
-## 💡 Solution
+## 🎥 Demo Video
 
-This system provides:
-- 📊 Real-time inventory tracking  
-- 🤖 AI-powered usage predictions  
-- ⚡ Smart reorder suggestions  
-- 🌱 Sustainability insights (waste reduction)
+👉 Watch here:
+https://youtube.com/your-video-link
 
----
+## ⚡ Quick Start
 
-## 🧠 Key Features
+### Prerequisites:
+- Node.js installed
+- MongoDB running locally or cloud (MongoDB Atlas)
+- Gemini API Key
 
-- Predict how long stock will last  
-- Suggest reorder timing  
-- Detect consumption trends  
-- Waste risk analysis  
-- Sustainability scoring  
-- AI fallback logic (if AI fails)  
-- Caching system (4-hour refresh)  
-- Urgent refresh limit system  
+### Run Commands:
 
----
-
-## 🏗️ Tech Stack
-
-| Layer       | Technology |
-|------------|-----------|
-| Frontend   | React, Tailwind CSS |
-| Backend    | Node.js, Express |
-| Database   | MongoDB |
-| AI         | Google Gemini API |
-| HTTP       | Axios |
-
----
-
-## ⚙️ System Architecture
-
-Client (React UI) → Backend (Express API) → MongoDB  
-                                 ↓  
-                             Gemini AI  
-
----
-
-## 📦 API Endpoints
-
-- `GET /api/items` → Fetch inventory  
-- `POST /api/orders` → Add order  
-- `GET /api/ai/insights` → Get AI insights  
-- `GET /api/ai/insights?force=true` → Force refresh  
-
----
-
-## 🤖 AI Logic
-
-Input:
-- Current stock  
-- Usage history  
-
-Output:
-- Days left  
-- Reorder time  
-- Stockout probability  
-- Consumption trend  
-- Waste risk  
-- Sustainability score  
-
-Includes fallback logic if AI fails.
-
----
-
-## 📊 Sample Dataset
-
-Located in:
-data/sampleData.json
-
-## 🧪 How to Run
-
-### Backend
+#### Backend:
 
 cd server
 npm install
 npm run dev
 
 
-### Frontend
+#### Frontend:
 
 cd client
 npm install
@@ -114,45 +41,50 @@ npm run dev
 
 ---
 
-## 🎥 Demo Video
-
-👉 Add your video link here:
-
-https://your-video-link
-
+### Test Commands:
+- Open browser → `http://localhost:5173`
+- Trigger insights → `/api/ai/insights`
+- Force refresh → `/api/ai/insights?force=true`
 
 ---
 
-## 🌱 Sustainability Impact
+## 🤖 AI Disclosure
 
-- Reduces overstocking  
-- Minimizes expired inventory  
-- Encourages efficient resource usage  
+### Did you use an AI assistant?
+Yes (ChatGPT)
 
----
+### How did you verify the suggestions?
+- Tested outputs against real usage patterns
+- Cross-checked predictions with manual calculations
+- Added fallback logic to ensure reliability
 
-## ⚠️ Challenges & Solutions
-
-| Challenge | Solution |
-|----------|---------|
-| AI inconsistent output | Added fallback logic |
-| Unrealistic predictions | Daily aggregation |
-| Duplicate DB entries | Used unique key |
-| High API usage | Implemented caching |
+### One suggestion you rejected or modified:
+- AI initially returned inconsistent and unrealistic predictions  
+- I replaced raw AI outputs with **controlled logic + constraints** (daily aggregation, capped values)
 
 ---
 
-## 🚀 Future Improvements
+## ⚖️ Tradeoffs & Prioritization
 
-- Image-based inventory detection  
-- Real-time alerts  
-- Carbon footprint tracking  
-- Supplier recommendations  
+### What did you cut to stay within time?
+- Image-based inventory scanning  
+- Real-time notifications  
+- Supplier recommendation system  
 
 ---
 
-## 📌 Conclusion
+### What would you build next?
+- 📸 AI-based image scanning for inventory  
+- 🔔 Real-time alerts for low stock  
+- 🌍 Carbon footprint tracking  
+- 📈 Advanced analytics dashboard  
 
-This project demonstrates how AI can be used to build a simple, scalable, and sustainable inventory management system that reduces waste and improves efficiency.
+---
+
+### Known Limitations
+- AI predictions can vary slightly between runs  
+- No real-time notifications yet  
+- Dataset is synthetic (not production scale)  
+- Limited validation for extreme edge cases  
 
 ---
