@@ -1,0 +1,32 @@
+[
+  {
+    "items": [
+      {
+        "name": "Coffee",
+        "quantity": 2
+      }
+    ],
+    "customerName": "John",
+    "createdAt": "2026-03-18T10:00:00Z"
+  },
+  {
+    "items": [
+      {
+        "name": "Sandwich",
+        "quantity": 1
+      }
+    ],
+    "customerName": "Alice",
+    "createdAt": "2026-03-19T12:30:00Z"
+  },
+  {
+    "items": [
+      {
+        "name": "Latte",
+        "quantity": 3
+      }
+    ],
+    "customerName": "Bob",
+    "createdAt": "2026-03-20T09:15:00Z"
+  }
+]

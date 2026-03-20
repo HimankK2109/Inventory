@@ -1,0 +1,51 @@
+[
+  {
+    "key": "ALL",
+    "generatedAt": "2026-03-20T10:00:00Z",
+    "urgentCount": 1,
+    "data": [
+      {
+        "itemName": "Milk",
+        "prediction": {
+          "daysLeft": 5,
+          "reorderInDays": 3,
+          "probability": 80
+        },
+        "consumption": {
+          "dailyAvg": 2.4,
+          "trend": "increasing"
+        },
+        "sustainability": {
+          "wasteRisk": "LOW",
+          "ecoScore": 85
+        },
+        "suggestions": [
+          "Reorder soon to avoid stockout",
+          "Monitor increasing demand"
+        ],
+        "wasteReduced": 40
+      },
+      {
+        "itemName": "Coffee Beans",
+        "prediction": {
+          "daysLeft": 12,
+          "reorderInDays": 9,
+          "probability": 30
+        },
+        "consumption": {
+          "dailyAvg": 0.75,
+          "trend": "stable"
+        },
+        "sustainability": {
+          "wasteRisk": "MEDIUM",
+          "ecoScore": 70
+        },
+        "suggestions": [
+          "Stock level is stable",
+          "Avoid over-ordering"
+        ],
+        "wasteReduced": 60
+      }
+    ]
+  }
+]
