@@ -14,7 +14,7 @@ Green-Tech Inventory Assistant
 ## 🎥 Demo Video
 
 👉 Watch here:
-https://youtube.com/your-video-link
+https://youtu.be/BAyqyX8sNfA
 
 ## ⚡ Quick Start
 
